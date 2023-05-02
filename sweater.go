@@ -25,3 +25,6 @@ type Config struct {
 	Country string `json:"country"`
 }
 
+const baseURL = "https://api.openweathermap.org"
+const configFileName = "config.json"
+
