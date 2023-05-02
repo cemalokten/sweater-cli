@@ -8,25 +8,17 @@ Prerequisites
 *   Go 1.13 or later
 *   An API key for OpenWeatherMap
 
-Dependencies
-------------
 
-This project uses the following third-party package:
 
-*   [github.com/TwiN/go-color](https://github.com/TwiN/go-color) for text color manipulation in the terminal
-
-Installation
-------------
+Usage
+-----
 
 1.  Clone the repository:
 
 
 `git clone https://github.com/cemalokten/sweater`
 
-Usage
------
-
-Run the program with the following flags:
+2. Run the program with the following flags:
 
 `go run sweater.go -apikey YOUR_API_KEY -town TOWN_NAME -country COUNTRY_CODE`
 
