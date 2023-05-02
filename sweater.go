@@ -10,6 +10,9 @@ import (
 	"os"
 	"strings"
 )
+
+import "github.com/TwiN/go-color"
+
 type WeatherResponse struct {
 	Main struct {
 		Temp float64
