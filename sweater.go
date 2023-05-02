@@ -28,13 +28,6 @@ type Config struct {
 const baseURL = "https://api.openweathermap.org"
 const configFileName = "config.json"
 
-func printWithBorder(text string) {
-	border := strings.Repeat("#", len(text)+4)
-	fmt.Println(border)
-	fmt.Printf("# %s #\n", text)
-	fmt.Println(border)
-}
-
 func main() {
 	apiKeyPointer := flag.String("apikey", "", "API Key for OpenWeatherMap")
 	townPointer := flag.String("town", "", "Town for the weather forecast")
