@@ -94,11 +94,11 @@ func main() {
 	fmt.Println("-------------------------------------")
 	fmt.Printf("%s %s, %s \n", location, config.Town, config.Country)
 	fmt.Printf("%s %d DEGREES CELSIUS \n", temperature, roundedTemp)
-	if weatherResponse.Main.Temp < 0 {
+	if weatherResponse.Main.Temp < 8 {
 		fmt.Println(wear, "A WARM COAT")
-	} else if weatherResponse.Main.Temp < 10 {
+	} else if weatherResponse.Main.Temp < 12 {
 		fmt.Println(wear, "LIGHT JACKET")
-	} else if weatherResponse.Main.Temp < 18 {
+	} else if weatherResponse.Main.Temp < 16 {
 		fmt.Println(wear, "SWEATER")
 	} else {
 		fmt.Println(wear, "T-SHIRT")
