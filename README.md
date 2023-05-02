@@ -2,7 +2,7 @@
 
 A simple command-line interface (CLI) written in Go, which outputs coat, sweater or t-shirt depending on your location and weather.
 
-![Sweater CLI (London, UK)](https://user-images.githubusercontent.com/60609268/235652837-32661ee2-78c2-4cc3-94c3-99541d79fda3.png)
+![Sweater CLI (London, UK)](https://user-images.githubusercontent.com/60609268/235653047-354759b3-201f-4f42-be65-6151ab1e9efb.png)
 
 Requirements
 ---
