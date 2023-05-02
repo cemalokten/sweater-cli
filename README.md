@@ -15,8 +15,7 @@ Usage
 
 1.  Clone the repository:
 
-
-`git clone https://github.com/cemalokten/sweater`
+`git clone https://github.com/cemalokten/sweater`{:.bash}
 
 2. Run the program with the following flags:
 
