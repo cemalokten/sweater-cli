@@ -35,6 +35,12 @@ The program stores the API key, town, and country in a `config.json` file. If yo
 
 You can also edit the `config.json` file manually to set the default API key, town, and country for the application:
 
-`{   "api_key": "YOUR_API_KEY",   "town": "TOWN_NAME",   "country": "COUNTRY_CODE" }`
+```json
+{
+  "api_key": "123456789",
+  "town": "London",
+  "country": "UK"
+}
+```
 
 Replace `YOUR_API_KEY`, `TOWN_NAME`, and `COUNTRY_CODE` with your desired values.
