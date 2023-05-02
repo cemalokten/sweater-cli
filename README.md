@@ -4,14 +4,14 @@ A simple command-line interface (CLI) written in Go, which outputs coat, sweater
 
 ![Screenshot 2023-05-02 at 12 05 44](https://user-images.githubusercontent.com/60609268/235651338-6d02f7b9-0157-4908-8d5b-ab4e1ae44750.png)
 
-Prerequisites
--------------
+Requirements
+---
 
 *   Go 1.13 or later
 *   An API key for OpenWeatherMap
 
 Usage
------
+---
 
 1.  Clone the repository:
 
@@ -26,7 +26,7 @@ For example:
 `go run sweater.go -apikey 1234567890 -town London -country UK`
 
 Configuration
--------------
+---
 
 The program stores the API key, town, and country in a `config.json` file. If you provide these values as flags, the program will update the configuration file accordingly.
 
